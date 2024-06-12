@@ -5,6 +5,7 @@ import MainLayout from "../layouts/MainLayout";
 //import copmonent
 import HomePage from "../components/pages/HomePage";
 import Error404 from "../layouts/Error404";
+import Enrollment from "../components/pages/Enrollment";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/Enrollment",
+        element: <Enrollment />,
       },
     ],
   },
