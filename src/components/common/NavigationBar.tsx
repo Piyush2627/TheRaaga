@@ -8,7 +8,6 @@ function NavigationBar() {
           <img src={Logo} className="size-28" alt="" />
           <div className="">
             <div className="text-3xl">The Raaga</div>{" "}
-            <div className="text-lg">Music</div>
           </div>
         </div>
         <div className="flex items-center">
@@ -44,12 +43,6 @@ function NavigationBar() {
                 Gallery
               </div>
             </Link>
-          </div>
-          <div className="group relative">
-            <div className="v absolute m-auto h-full w-full hover:bg-gradient-to-b hover:from-grandis-300 hover:to-transparent hover:to-90%"></div>
-            <div className="px-6 py-4 text-grandis-300 hover:text-grandis-500">
-              Resources
-            </div>
           </div>
         </div>
       </div>

@@ -1,25 +1,26 @@
 import Logo from "../../assets/images/Logo.png";
-
 function Footer() {
   return (
     <>
-      <div className="mt-20 w-full bg-revolver-900 p-4 py-6 font-playfair lg:py-8">
-        <div className="md:flex md:justify-between">
+      <div className="mt-20 w-full border-t bg-grandis-300 px-24 py-4 font-playfair lg:py-4">
+        <div className="items-center md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <div className="flex items-center">
-              <img src={Logo} className="h-20" alt="FlowBite Logo" />
-              <span className="self-center whitespace-nowrap text-2xl font-semibold text-grandis-300">
-                The Raaaga
-              </span>
+              <div className="rounded-full bg-revolver-950">
+                <img src={Logo} className="h-24" alt="FlowBite Logo" />
+              </div>
+              <div className="ml-6 self-center whitespace-nowrap text-4xl font-semibold text-revolver-950">
+                The Raaaga Music Classes
+              </div>
             </div>
-          </div>
+          </div>{" "}
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-grandis-300">
+              <h2 className="mb-2 text-sm font-semibold uppercase text-revolver-950">
                 Resources
               </h2>
-              <ul className="font-medium text-grandis-300">
-                <li className="mb-4">
+              <ul className="font-medium text-revolver-950">
+                <li className="mb-1">
                   <a className="hover:underline">Flowbite</a>
                 </li>
                 <li>
@@ -28,11 +29,11 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-grandis-300">
+              <h2 className="mb-2 text-sm font-semibold uppercase text-revolver-950">
                 Follow us
               </h2>
-              <ul className="font-medium text-grandis-300">
-                <li className="mb-4">
+              <ul className="font-medium text-revolver-950">
+                <li className="mb-1">
                   <a className="hover:underline">Github</a>
                 </li>
                 <li>
@@ -41,11 +42,11 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-grandis-300">
+              <h2 className="mb-2 text-sm font-semibold uppercase text-revolver-950">
                 Legal
               </h2>
-              <ul className="font-medium text-grandis-300">
-                <li className="mb-4">
+              <ul className="font-medium text-revolver-950">
+                <li className="mb-1">
                   <a href="#" className="hover:underline">
                     Privacy Policy
                   </a>
@@ -59,13 +60,13 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-grandis-300 sm:mx-auto lg:my-8" />
+        <hr className="my-2 border-grandis-300 sm:mx-auto lg:my-2" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-grandis-300 sm:text-center">
+          <span className="text-sm text-revolver-950 sm:text-center">
             © 2023 Flowbite™ . All Rights Reserved.
           </span>
           <div className="mt-4 flex sm:mt-0 sm:justify-center">
-            <a href="#" className="text-grandis-300">
+            <a href="#" className="text-revolver-950">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -81,7 +82,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a href="#" className="ms-5 text-grandis-300">
+            <a href="#" className="ms-5 text-revolver-950">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -93,7 +94,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Discord community</span>
             </a>
-            <a href="#" className="ms-5 text-grandis-300">
+            <a href="#" className="ms-5 text-revolver-950">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -109,7 +110,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
-            <a href="#" className="ms-5 text-grandis-300">
+            <a href="#" className="ms-5 text-revolver-950">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -125,7 +126,7 @@ function Footer() {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a href="#" className="ms-5 text-grandis-300">
+            <a href="#" className="ms-5 text-revolver-950">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"

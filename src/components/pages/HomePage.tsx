@@ -15,7 +15,7 @@ function HomePage() {
         <p className="text-center font-playfair text-6xl text-grandis-300">
           Description
         </p>
-        <p className="mt-4 text-center font-playfair text-lg text-grandis-300 lg:px-24">
+        <p className="mt-4 text-center font-playfair text-lg text-grandis-300 lg:px-44">
           Welcome to The Raaga, your gateway to the enchanting world of Indian
           Classical Singing. At The Raaga, we are dedicated to preserving and
           promoting the rich heritage of Indian classical music through
@@ -27,14 +27,14 @@ function HomePage() {
         </p>
       </div>
 
-      <div className="mt-24 h-48 w-full">
+      <div className="mt-44 h-48 w-full">
         <div className="absolute left-0 flex h-48 w-full items-center justify-center bg-[url(./assets/images/mandalaBackGround.jpeg)] bg-cover bg-center opacity-70">
           <div className="text-center text-5xl font-extrabold capitalize text-revolver-950">
             Start learning from the best music teacher.
           </div>
         </div>
       </div>
-      <div className="mt-24">
+      <div className="mt-44">
         <CourseFeatures />
       </div>
     </div>

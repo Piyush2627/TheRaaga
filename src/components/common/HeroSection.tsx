@@ -1,4 +1,4 @@
-import MandalaPng from "../../assets/images/Asset 1.png";
+import MandalaPng from "../../assets/images/Asset 3.svg";
 function HeroSection() {
   return (
     <>

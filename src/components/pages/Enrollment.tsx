@@ -71,7 +71,7 @@ function Enrollment() {
                   );
                 })}
               </ul>
-              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-grandis-300 lg:px-6 lg:py-2 lg:text-2xl lg:text-grandis-300">
+              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-revolver-950 lg:px-6 lg:py-2 lg:text-2xl lg:text-revolver-950">
                 Register
               </button>
             </div>
@@ -107,7 +107,7 @@ function Enrollment() {
                   );
                 })}
               </ul>
-              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-grandis-300 lg:px-6 lg:py-2 lg:text-2xl lg:text-grandis-300">
+              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-revolver-950 lg:px-6 lg:py-2 lg:text-2xl lg:text-grandis-300">
                 Register
               </button>
             </div>
@@ -144,7 +144,7 @@ function Enrollment() {
                   );
                 })}
               </ul>
-              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-grandis-300 lg:px-6 lg:py-2 lg:text-2xl lg:text-revolver-950">
+              <button className="lg:px w-full lg:mt-4 lg:rounded-lg lg:border-2 lg:border-revolver-950 lg:px-6 lg:py-2 lg:text-2xl lg:text-revolver-950">
                 Register
               </button>
             </div>
