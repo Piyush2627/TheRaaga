@@ -4,11 +4,13 @@ import NavigationBar from "../components/common/NavigationBar";
 
 function MainLayout() {
   return (
-    <div className="px-6 lg:px-28">
-      <NavigationBar />
-      <Outlet />
+    <>
+      <div className="px-6 lg:px-28">
+        <NavigationBar />
+        <Outlet />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

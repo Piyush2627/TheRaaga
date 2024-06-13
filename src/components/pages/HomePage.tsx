@@ -13,7 +13,7 @@ function HomePage() {
       <HeroSection />
       <div className="mt-44">
         <p className="text-center font-playfair text-6xl text-grandis-300">
-          Decrption
+          Description
         </p>
         <p className="mt-4 text-center font-playfair text-lg text-grandis-300 lg:px-24">
           Welcome to The Raaga, your gateway to the enchanting world of Indian

@@ -6,6 +6,7 @@ import MainLayout from "../layouts/MainLayout";
 import HomePage from "../components/pages/HomePage";
 import Error404 from "../layouts/Error404";
 import Enrollment from "../components/pages/Enrollment";
+import Gallery from "../components/pages/Gallery";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/Enrollment",
         element: <Enrollment />,
+      },
+      {
+        path: "/Gallery",
+        element: <Gallery />,
       },
     ],
   },

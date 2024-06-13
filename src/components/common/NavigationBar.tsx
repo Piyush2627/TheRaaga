@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/_a66f4b8b-db04-41cd-804b-6aa9e204ebf6-removebg-preview.png";
+import Logo from "../../assets/images/Logo.png";
 function NavigationBar() {
   return (
     <div className="font-playfair">
@@ -38,10 +38,12 @@ function NavigationBar() {
             </Link>
           </div>
           <div className="group relative">
-            <div className="v absolute m-auto h-full w-full hover:bg-gradient-to-b hover:from-grandis-300 hover:to-transparent hover:to-90%"></div>
-            <div className="px-6 py-4 text-grandis-300 hover:text-grandis-500">
-              Classes
-            </div>
+            <Link to={"/Gallery"}>
+              <div className="v absolute m-auto h-full w-full hover:bg-gradient-to-b hover:from-grandis-300 hover:to-transparent hover:to-90%"></div>
+              <div className="px-6 py-4 text-grandis-300 hover:text-grandis-500">
+                Gallery
+              </div>
+            </Link>
           </div>
           <div className="group relative">
             <div className="v absolute m-auto h-full w-full hover:bg-gradient-to-b hover:from-grandis-300 hover:to-transparent hover:to-90%"></div>

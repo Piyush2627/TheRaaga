@@ -3,7 +3,7 @@ const TailwindColorsSchema = {
     50: "#fff9ed",
     100: "#fef2d6",
     200: "#fce1ac",
-    300: "#fbd085",
+    300: "#fbf9e5",
     400: "#f8a93f",
     500: "#f58f1a",
     600: "#e67410",

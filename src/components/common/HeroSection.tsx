@@ -1,10 +1,10 @@
-import MandalaPng from "../../assets/images/pngwing.com.png";
+import MandalaPng from "../../assets/images/Asset 1.png";
 function HeroSection() {
   return (
     <>
       <div className="flex justify-between gap-10 font-playfair">
         <div className="relative w-1/2">
-          <img src={MandalaPng} className="" alt="" />
+          <img src={MandalaPng} className="h-full w-full" alt="" />
         </div>
         <div className="flex w-1/2 flex-col content-center justify-center">
           <p className="text-8xl text-grandis-300">Indian Classical Singing</p>
